@@ -3,4 +3,51 @@ html {
 }
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.6rem;
+  background-color: #333333;
+}
+h1 {
+  font-size: larger;
+  color: orange;
+}
+h2 {
+  font-size: large;
+  color: orange;
+}
+nav {
+  background-color: black;
+}
+/* OLETUKSENA NAVIGOINTIPALKKI FLEXAA SIVUTTAISSUUNNASSA. */
+.main-nav ul {
+  display: flex;
+  flex-direction: row;
+}
+/* NAVIGOINTIPALKIN PAINIKKEET (LAPSET) ASETETAAN OLETUKSENA TÄYTTÄMÄÄN LEVEYSSUUNNASSA BODYN SISÄLLÄ OLEVA TILA. MÄÄRITETÄÄN NAVIGOINTIPALKIN ULKOASU */
+.main-nav ul > * {
+  flex-grow: 1;
+  color: white;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+/* PORTFOLIO PAINIKE ALKAA FLEXAAMAAN 33 % BODYN SISÄLLÄ OLEVASTA TILASTA JA TEKSTI SIJOITETAAN VASEMMALLE */
+.portfolio {
+  flex-basis: 33%;
+  text-align: left;
+}
+.box1 {
+  background-color: rgba(0, 0, 0, 0.281);
+  margin: 5rem;
+}
+ol li {
+  color: #bca795;
+  font-style: italic;
+}
+ol li::marker {
+  color: white;
+}
+.background-image {
+  background-image: url(https://images.unsplash.com/photo-1489033386374-692175556d7e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8Y2l0eSxuaWdodHx8fHx8fDE2ODM1NDY1MjQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600);
+  display: flex;
+  max-width: 100%;
 }
