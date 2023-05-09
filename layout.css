@@ -36,8 +36,10 @@ nav {
   text-align: left;
 }
 .box1 {
-  background-color: rgba(0, 0, 0, 0.281);
-  margin: 5rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: auto;
+  padding: 5rem;
+  flex-grow: 1;
 }
 ol li {
   color: #bca795;
@@ -49,5 +51,50 @@ ol li::marker {
 .background-image {
   background-image: url(https://images.unsplash.com/photo-1489033386374-692175556d7e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8Y2l0eSxuaWdodHx8fHx8fDE2ODM1NDY1MjQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600);
   display: flex;
+  max-width: 100%;
+  margin: 5rem;
+  padding: 10%;
+}
+.box2 {
+  background-color: #f5f5f5;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}
+h3 {
+  font-size: larger;
+  background-color: #f5f5f5;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  margin-top: -5rem;
+  padding: 1rem;
+}
+h4 {
+  font-size: large;
+  font-weight: 700;
+}
+.seemore {
+  font-style: italic;
+  color: orange;
+}
+.boxbox {
+  display: flex;
+  flex-basis: 33%;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  display: flex;
+  flex-basis: 33%;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  background-color: white;
+  border: solid lightgray 0.1rem;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-right: 1rem;
+}
+.boxbox-image {
   max-width: 100%;
 }
