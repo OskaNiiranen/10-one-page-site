@@ -13,6 +13,7 @@ h1 {
 h2 {
   font-size: large;
   color: orange;
+  margin-bottom: 2rem;
 }
 nav {
   background-color: black;
@@ -59,6 +60,7 @@ ol li::marker {
   background-color: #f5f5f5;
   margin-right: 5rem;
   margin-left: 5rem;
+  margin-bottom: 2rem;
   display: flex;
   flex-direction: row;
   padding-bottom: 1rem;
@@ -79,6 +81,7 @@ h4 {
 .seemore {
   font-style: italic;
   color: orange;
+  margin-top: 1rem;
 }
 .boxbox {
   display: flex;
@@ -86,9 +89,6 @@ h4 {
   flex-wrap: wrap;
   flex-grow: 1;
   display: flex;
-  flex-basis: 33%;
-  flex-wrap: wrap;
-  flex-grow: 1;
   background-color: white;
   border: solid lightgray 0.1rem;
   border-radius: 10px;
@@ -97,4 +97,32 @@ h4 {
 }
 .boxbox-image {
   max-width: 100%;
+}
+.box3headers {
+  border-top: solid 1px aliceblue;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding-top: 2rem;
+}
+.box3 {
+  display: flex;
+  align-items: flex-start;
+  color: white;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 2rem;
+}
+
+.box3 .white-text {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.box3 .box3images {
+  flex-basis: 20%;
+}
+
+.box3 .box3images img {
+  width: 100%;
+  height: auto;
 }
